@@ -22,7 +22,8 @@ class PostSerializer(serializers.ModelSerializer):
             "id",
             "created_time",
             "updated_time",
-            "comments"
+            "comments",
+            "likes"
         ]
 
 class CommentSerializer(serializers.ModelSerializer):
